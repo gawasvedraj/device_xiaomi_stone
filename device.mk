@@ -7,6 +7,9 @@
 # Call the ViperFX Config
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
+# Call the Dolby Config
+$(call inherit-product-if-exists, vendor/dolby/dolby.mk)
+
 # Call the BCR Config
 $(call inherit-product-if-exists, vendor/bcr/bcr.mk)
 
