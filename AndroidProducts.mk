@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_stone.mk
+    $(LOCAL_DIR)/derp_stone.mk
+
+COMMON_LUNCH_CHOICES := \
+    derp_stone-user \
+    derp_stone-userdebug \
+    derp_stone-eng
